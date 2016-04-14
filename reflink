@@ -1,0 +1,37 @@
+general source: http://www.davidprasetyo.com/2016/02/laravel-52-crud-simple-project-example.html
+
+google search : approcket-preproject
+
+
+github source:  https://github.com/rahmatawaludin/approcket-preproject/
+Contoh aplikasi CRUD dengan Laravel 5.2 https://leanpub.com/bukularavel
+
+learn:  https://leanpub.com/bukularavel
+
+
+(CRUD application for Laravel with backend, frontend, and ajax validation) laravel 4
+other sample:   https://github.com/rahmatawaludin/human-capital 
+
+
+
+-------------------------------
+How to run this project:
+~terminal command
+-------------------------------
+
+Run     composer install
+Run     npm install
+
+Setup DB connection in .env file 
+    DB_HOST=127.0.0.1
+    DB_DATABASE=laravel_e
+    DB_USERNAME=root
+    DB_PASSWORD=
+
+Run                 php artisan key:generate (if needed)
+Migrate & seed      php artisan migrate:refresh --seed (db tables will be imported)
+Run                 gulp to compile elixir and js
+
+Run on homestead or serve it using php artisan serve
+
+------------------------------
